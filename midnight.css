@@ -1275,3 +1275,42 @@ html.theme-light,
 
 	--white-500: var(--text-1);
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: var(--bg-2);
+  color: var(--text-0);
+  padding: var(--spacing);
+  font-family: var(--font);
+  border: none;
+  cursor: pointer;
+  border-radius: var(--roundness-s);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--bg-3);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: var(--roundness-s);
+}
+
+.dropdown-content a {
+  color: var(--text-3);
+  padding: var(--spacing);
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--hover);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
