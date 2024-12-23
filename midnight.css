@@ -428,7 +428,7 @@ a[href="https://support.discord.com"] /* hide help */
 	margin-left: calc(var(--spacing) + 8px);
 }
 .chat_a7d72e:has(.outer_c69a7b) .searchBar_a46bef {
-	width: 316px !portant;
+	width: 316px !important;
 	margin-left: calc(var(--spacing) + 8px);
 }
 .chat_a7d72e:has(.membersWrap_cbd271) .searchBar_a46bef {
@@ -1071,7 +1071,7 @@ html.theme-light,
 	--creator-revenue-info-box-background: hsl(var(--teal-430-hsl) / 0.1);
 	--creator-revenue-info-box-border: var(--teal-400);
 	--creator-revenue-locked-channel-icon: var(--teal-345);
-	--creator-revenue-progress-bar: var (--teal-400);
+	--creator-revenue-progress-bar: var(--teal-400);
 	--deprecated-card-bg: var(--bg-3);
 	--deprecated-card-editable-bg: hsl(var(--primary-700-hsl) / 0.3);
 	--deprecated-quickswitcher-input-background: var(--primary-400);
@@ -1234,7 +1234,7 @@ html.theme-light,
 	--text-positive: var(--green-330);
 	--text-primary: var(--text-3);
 	--text-secondary: var(--text-3);
-	--text-warning: var (--yellow-300);
+	--text-warning: var(--yellow-300);
 	--textbox-markdown-syntax: var(--primary-360);
 	--theme-locked-blur-fallback: hsl(var(--primary-700-hsl) / 0.96);
 	--user-profile-header-overflow-background: hsl(var(--primary-700-hsl) / 0.5);
@@ -1274,45 +1274,4 @@ html.theme-light,
 	--primary-660: var(--bg-3); /* search popout "enter" bar */
 
 	--white-500: var(--text-1);
-}
-
-/* Add the dropdown styles here */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropbtn {
-  background-color: var(--bg-2);
-  color: var(--text-0);
-  padding: var(--spacing);
-  font-family: var(--font);
-  border: none;
-  cursor: pointer;
-  border-radius: var(--roundness-s);
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: var(--bg-3);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border-radius: var(--roundness-s);
-}
-
-.dropdown-content a {
-  color: var(--text-3);
-  padding: var(--spacing);
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: var(--hover);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
